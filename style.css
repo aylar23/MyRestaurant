@@ -1,0 +1,45 @@
+
+body{
+    padding: 50px;
+}
+#nav_menu{
+    text-align: center;
+    padding: 0;
+    grid-gap: 10px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+nav{
+    display: block;
+}
+
+
+#nav_menu li{
+    background-color: yellow;
+}
+
+nav a{
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.gallery{
+    display: grid;
+    grid-gap: 10px;
+    list-style: none;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+
+
+
+
+.gallery img{
+    width: 100%;
+}
+
+
